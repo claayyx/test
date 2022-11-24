@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
+#header{
+    background: rgba(89, 89, 89, 0.15);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    opacity: 12;
+    padding: 12px 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo h1{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.003em;
+    color: #FF001E;
+}
+
+
+
+
+.header-nav a{
+    margin: 0 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #9a9898;
+    transition: .3s;
+}
+.header-nav a:hover{
+    color: #FF001E;
+    border-bottom: 2px solid #FF001E;
+}
+
+
+.header-menu button{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background: #FF001E;
+    border: #FFFFFF;
+    transition: .4s;
+    border-radius: 10px;
+}
+
+.header-menu button:hover{
+    color: gray;
+    background: none;
+    border: 2px solid #FFFFFF;
+    transform: scale(1.1);
+}
+
+/*----hero------*/
+#hero{
+    background: url("../img/mm.png") center/cover;
+    min-height: 100vh;
+}
+
+.hero {
+    padding: 179px 0;
+}
+
+.hero-text h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.35);
+}
+
+.hero-text p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 2px;
+    color: #FFFFFf;
+    width: 664px;
+    padding: 20px 0;
+}
+
+.hero-text button{
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #FF001E;
+    border-radius:8px;
+    transition: .4s;
+}
+.hero-text button:hover{
+    background: none;
+    border: 2px solid gainsboro;
+    transform: scale(1.1);
+}
+
+.hero-icon{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+/*-------block---*/
+.block{
+    padding: 30px 0;
+}
+
+
+.block-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #222222;
+    width: 280px;
+    height: 170px;
+    border-radius:10px ;
+}
+
+
+.block-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 267px;
+}
+
+.bolck-genral{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*----robot----*/
+#robot{
+    background: #222222;
+}
+
+
+.robot-text h1{
+    font-weight: 700;
+    font-size: 28px;
+    color: #FF001E;
+
+}
+
+.robot-block{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.robot-block img{
+    padding: 10px 0;
+    width: 364px;
+}
+
+.robot-services-gen h1{
+    font-weight: 700;
+    font-size: 28px;
+    color: #FF001E;
+    padding:10px 0;
+}
+
+.robot-services{
+    background: floralwhite;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+.robot-bot{
+    position: relative;
+    top: 98px;
+    background:black;
+    width: 400px;
+    height: 98px;
+    border-radius: 10px;
+}
+
+
+
+
